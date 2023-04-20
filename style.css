@@ -5,28 +5,28 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.eisenhover-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.eisenhover-matrix img {
   width: 100%;
 }
 
-.aaa .more-info {
+.eisenhover-matrix .info-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .eisenhover-matrix {
     text-align: center;
   }
 }
 
-.centered-main-page-element {
+.tasks-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -38,7 +38,7 @@ body {
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.add-tasks-input {
   display: flex;
 }
 
@@ -73,7 +73,7 @@ button:hover {
 
 /* Heading */
 h3,
-label[for="new-task"] {
+label[for="add-tasks-label"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,12 +101,12 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+label[for="add-tasks-label"] {
   display: block;
   margin: 0 0 20px;
 }
 
-input#new-task {
+input#add-tasks-label {
   width: 318px;
 }
 
