@@ -2,7 +2,7 @@
 .page-wrapper {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .eisenhover-matrix-info {
@@ -17,7 +17,7 @@
 }
 
 .eisenhover-matrix-info__link {
-  font-family: fantasy, cursive;
+  font-family: "fantasy", cursive;
 }
 
 @media (max-width: 768px) {
@@ -48,7 +48,7 @@
   border: 1px solid #ddd;
   border-radius: 6px;
   background: #fff;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   color: #888;
   font-size: 18px;
 }
@@ -68,7 +68,7 @@
   flex-grow: 1;
   outline: none;
   line-height: 18px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   color: #333;
   font-size: 18px;
 }
@@ -92,7 +92,7 @@
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   cursor: pointer;
 }
 
@@ -124,7 +124,7 @@
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   color: #888;
 }
 
